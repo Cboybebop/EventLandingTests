@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agricultural Digital Event Series</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Top Banner -->
+    <div class="top-banner">Powered by Agricultural Digital Solutions</div>
+
+    <!-- Header -->
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <div class="logo">
+          <div class="logo-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M11 20A7 7 0 0 1 9.8 6.9C15.5 4.9 17 3.5 19 2c1 2 2 4.5 2 8 0 5.5-4.78 10-10 10Z"/>
+              <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Desktop Nav -->
+        <nav class="desktop-nav">
+          <a href="#agenda">Agenda</a>
+          <a href="#speakers">Speakers</a>
+          <a href="#partners">Partners</a>
+          <button class="btn btn-outline-sm">Partner with us</button>
+          <button class="btn btn-primary-sm">Join now</button>
+        </nav>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-btn" id="menuOpen" aria-label="Open menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" x2="20" y1="12" y2="12"/>
+            <line x1="4" x2="20" y1="6" y2="6"/>
+            <line x1="4" x2="20" y1="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav" id="mobileNav">
+      <div class="mobile-nav-top">
+        <button class="mobile-nav-close" id="menuClose" aria-label="Close menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18"/>
+            <path d="m6 6 12 12"/>
+          </svg>
+        </button>
+        <svg class="leaf-icon-lime" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 20A7 7 0 0 1 9.8 6.9C15.5 4.9 17 3.5 19 2c1 2 2 4.5 2 8 0 5.5-4.78 10-10 10Z"/>
+          <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+        </svg>
+      </div>
+
+      <div class="mobile-nav-buttons">
+        <button class="btn btn-primary-lg btn-full">Join now</button>
+        <button class="btn btn-outline-lg btn-full">Partner with us</button>
+      </div>
+
+      <nav class="mobile-nav-links">
+        <a href="#agenda" class="mobile-nav-link">
+          <div>
+            <h3>Agenda</h3>
+            <p>View the full agenda for upcoming events.</p>
+          </div>
+          <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+        <a href="#speakers" class="mobile-nav-link">
+          <div>
+            <h3>Speakers</h3>
+            <p>Speaker profiles, schedules, and session details.</p>
+          </div>
+          <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+        <a href="#partners" class="mobile-nav-link">
+          <div>
+            <h3>Partners</h3>
+            <p>Learn about our partners and explore partnership opportunities.</p>
+          </div>
+          <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </a>
+      </nav>
+
+      <div class="mobile-nav-footer">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 20A7 7 0 0 1 9.8 6.9C15.5 4.9 17 3.5 19 2c1 2 2 4.5 2 8 0 5.5-4.78 10-10 10Z"/>
+          <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+        </svg>
+        <span>Agricultural Digital Podcast Series</span>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <img
+        src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=2000&q=80"
+        alt="Wind turbines at sunset"
+        class="hero-bg"
+        referrerpolicy="no-referrer"
+      />
+      <div class="hero-gradient"></div>
+
+      <div class="container hero-content">
+        <div class="hero-text" id="heroText">
+          <span class="hero-date">10, 17, 24 November 2024</span>
+          <h1>Agricultural Digital <br /> Event Series</h1>
+          <div class="hero-bottom">
+            <p>
+              Predict climate change with AI solutions for the future of food.
+            </p>
+            <button class="btn btn-primary-lg">Join now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="overview">
+      <div class="container overview-grid">
+        <div>
+          <span class="section-label">Overview</span>
+          <h2>
+            The Agricultural Digital Event Series showcases how industry pioneers
+            are using innovative technology, creative ingenuity, and ethical
+            methods to ensure sustainable nourishment for communities worldwide.
+          </h2>
+        </div>
+        <div class="overview-decoration">
+          <svg width="256" height="256" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 20A7 7 0 0 1 9.8 6.9C15.5 4.9 17 3.5 19 2c1 2 2 4.5 2 8 0 5.5-4.78 10-10 10Z"/>
+            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat animate-on-scroll" style="--delay: 0s">
+          <span class="stat-value">3.1k</span>
+          <span class="stat-label">Registrations</span>
+        </div>
+        <div class="stat animate-on-scroll" style="--delay: 0.1s">
+          <span class="stat-value">1147</span>
+          <span class="stat-label">Attendees</span>
+        </div>
+        <div class="stat animate-on-scroll" style="--delay: 0.2s">
+          <span class="stat-value">96</span>
+          <span class="stat-label">Tech questions</span>
+        </div>
+        <div class="stat animate-on-scroll" style="--delay: 0.3s">
+          <span class="stat-value">5.7k</span>
+          <span class="stat-label">Total data downloads</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <svg class="leaf-icon-lime" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 20A7 7 0 0 1 9.8 6.9C15.5 4.9 17 3.5 19 2c1 2 2 4.5 2 8 0 5.5-4.78 10-10 10Z"/>
+            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+          </svg>
+          <span>Agricultural Digital Event</span>
+        </div>
+        <p class="footer-copyright">
+          &copy; 2024 Agricultural Digital Event Series. All rights reserved.
+        </p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
