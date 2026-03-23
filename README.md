@@ -1,5 +1,7 @@
 # Agricultural Digital Event Series
 
+![Figma Design for Agricultural Digital Event Series](assets/figma.png)
+
 A responsive, single-page landing site for the Agricultural Digital Event Series — a conference showcasing innovative technology, AI solutions, and ethical methods for the future of sustainable food production.
 
 Built entirely with **vanilla HTML, CSS, and JavaScript**. Zero build tools, zero frameworks, zero dependencies.
@@ -8,7 +10,7 @@ Built entirely with **vanilla HTML, CSS, and JavaScript**. Zero build tools, zer
 
 ## Site Overview
 
-The page is structured as a classic marketing landing page with the following sections:
+![Produced Design for Agricultural Digital Event Series](assets/produced.png)
 
 - **Top banner** — Branding strip across the top of the viewport.
 - **Sticky header** — Logo + desktop navigation that transitions to a compact, blurred-glass style on scroll.
